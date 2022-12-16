@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><!--  primer error la falta la cabecera-->
+
+<Film Runtime="1h34m"> <!-- Un atributo no puede empezar por un numero y esta al reves-->
+	<title>Pirates of Silicon Valley</title>
+	<director>Martyn Burke</director> <!--  la barra del no puede estar al final-->
+	<Original lang="en" > <!-- No puede empezar con espacio,  esta mal la definicion de lenguaje y  tiene que estar entre comillas-->
+		<description>
+			Based upon the friendship and eventual breakdown between <strong>Bill Gates</strong> and <strong>Steve Jobs</strong> in the very early startup days of Microsoft and Apple from their home garages. This film does a great job of showing it’s about being the first to have an idea, it’s about who’s first to act on it properly and with passion, exemplified by their "theft" of the first GUI system from Xerox.
+		</description> 
+	</Original> <!-- falta el cierre-->
+</Film>		<!-- Este Film tiene que ser igual al primero (con mayuscula)-->
